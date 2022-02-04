@@ -1,0 +1,88 @@
+Task 2
+function main(){
+   OneThreeFiveLines();
+   putBeeper();
+   removeBack();
+   TwoFourLines();
+   removeBack();
+   OneThreeFiveLines();
+   putBeeper();
+   removeBack();
+   TwoFourLines();
+   removeBack();
+   OneThreeFiveLines();
+   putBeeper();
+}
+
+function OneThreeFiveLines(){
+   repeat(2) {
+      putBeeper();
+      move();
+      move();
+   }
+}
+
+function TwoFourLines() {
+   repeat(2) {
+      move();
+      putBeeper();
+      move();
+   }
+}
+
+function removeBack() {
+   turnAround();
+   repeat(4) {
+      move();
+   }
+   turnRight();
+   move();
+   turnRight();
+}
+
+Task 3
+turnLeft();
+   move();
+   move();
+   move();
+   move();
+   turnRight();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+   move();
+   move();
+   turnRight();
+   move();
+   turnRight();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+   move();
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+   move();
+   turnRight();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+   move();
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+   move();
+   move();
+   turnRight();
+   move();
+   turnLeft();
+   move();
